@@ -1,24 +1,42 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html>
-<head>
-  <title>Ma première page avec du style</title>
-</head>
-<body>
-<!-- Menu de navigation du site -->
-<ul class="navbar">
-  <li><a href="index.html">Home page</a>
-  <li><a href="reflexions.html">Réflexions</a>
-  <li><a href="ville.html">Ma ville</a>
-  <li><a href="liens.html">Liens</a>
-</ul>
-<!-- Contenu principal -->
-<h1>Ma première page avec du style</h1>
-<p>Bienvenue sur ma page avec du style! 
-<p>Il lui manque des images, mais au moins, elle a du style. Et elle a desliens, même s'ils ne mènent nulle part...
-&hellip;
-<p>Je devrais étayer, mais je ne sais comment encore.
-<!-- Signer et dater la page, c'est une question de politesse! -->
-<address>Fait le 5 avril 2004<br>
-  par moi.</address>
-</body>
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Page d'accueil</title>
+		<meta charset="UTF-8" />
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+	<body>
+		<!-- ENTETE -->
+		<header>
+			<h1>Accueil</h1>
+		</header>
+		<!-- NAVIGATION (liens / menu) -->
+		<nav>
+			<ul>
+				<li><a href="index.html"><i class="fa fa-home" style="font-size:18px"></i> Accueil</a></li>
+				<li><a href="entreprise/description.html"><i class="fa fa-building" style="font-size:18px"></i> Entreprise</a></li>
+				<li><a href="entreprise/organigramme.html"><i class="fa fa-diagram-project" style="font-size:18px"></i> Organigramme</a></li>
+				<li><a href="entreprise/interview.html"><i class="fa fa-microphone" style="font-size:18px"></i> Interview</a></li>
+				<li><a href="entreprise/conclusion.html"><i class="fa fa-thumbs-up" style="font-size:18px"></i> Ma conclusion</a></li>
+				<li><a href="exposition/visite.html"><i class="fa fa-umbrella" style="font-size:18px"></i> experienceBrussels</a></li>
+				<li><a href="exposition/galerie.html"><i class="fa fa-camera" style="font-size:18px"></i> Galerie Photo</a></li>
+			</ul>
+		</nav>
+		<!-- CONTENU PRINCIPAL -->
+		<main>
+			<h2>Bienvenue sur mon site</h2>
+			<p>Ceci est la page d'accueil</p>
+			<p>Vous allez découvrir <a class="lienpage" href="entreprise/description.html">l'entreprise que j'ai trouvé</a></p>
+			<p>J'ai réalisé une <a class="lienpage" href="entreprise/interview.html">interview avec un développeur</a></p>
+			<p>Vous pourrez trouver un <a class="lienpage" href="entreprise/organigramme.html">organigramme</a> de cette <a  class="lienpage" href="https://www.odoo.com/fr_FR/page/about-us" target="_blank">entreprise appelée Odoo</a></p>
+			<p>Après cet entretien, cela a confirmé <a class="lienpage" href="entreprise/conclusion.html">mon choix d'orientation</a> pour la formation de web développeur</p>
+			<hr>
+			<p>D'autre part, j'ai fait une <a class="lienpage" href="exposition/visite.html">visite</a> à l'exposition <a class="lienpage" href="https://www.brusselsmuseums.be/fr/musees/experience-brussels" target="_blank">experience Brussels</a> et j'ai réalisé quelques photos que vous pourrez voir dans la <a class="lienpage" href="exposition/galerie.html">galerie</a></p>
+		</main>
+		<!-- PIED DE PAGE -->
+		<footer>
+			<p>Copyright CF2M &copy; 2022</p>
+		</footer>
+	</body>
 </html>
